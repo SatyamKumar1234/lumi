@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Capacitor
+.capacitor/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# DO NOT ignore Android build files - needed for cloud build
+# android/gradlew
+# android/gradlew.bat
+# android/gradle/

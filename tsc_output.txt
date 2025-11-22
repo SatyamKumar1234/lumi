@@ -1,0 +1,227 @@
+src/App.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/App.tsx(1,27): error TS6133: 'useContext' is declared but its value is never read.
+src/App.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/App.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/App.tsx(2,16): error TS6133: 'Text' is declared but its value is never read.
+src/App.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/App.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'SafeAreaView'.
+src/App.tsx(2,48): error TS2305: Module '"react-native"' has no exported member 'StatusBar'.
+src/App.tsx(2,59): error TS2305: Module '"react-native"' has no exported member 'Platform'.
+src/App.tsx(2,59): error TS6133: 'Platform' is declared but its value is never read.
+src/App.tsx(3,50): error TS6133: 'Link' is declared but its value is never read.
+src/App.tsx(3,56): error TS6133: 'useLocation' is declared but its value is never read.
+src/App.tsx(5,1): error TS6192: All imports in import declaration are unused.
+src/App.tsx(20,1): error TS6133: 'GlassView' is declared but its value is never read.
+src/App.tsx(41,27): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ light: { colors: { primary: string; background: string; card: string; text: string; textSecondary: string; border: string; notification: string; danger: string; success: string; warning: string; glassBorder: string; glassBackground: string; }; spacing: { ...; }; borderRadius: { ...; }; shadows: { ...; }; }; dark: ...'.
+  No index signature with a parameter of type 'string' was found on type '{ light: { colors: { primary: string; background: string; card: string; text: string; textSecondary: string; border: string; notification: string; danger: string; success: string; warning: string; glassBorder: string; glassBackground: string; }; spacing: { ...; }; borderRadius: { ...; }; shadows: { ...; }; }; dark: ...'.
+src/App.tsx(97,26): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ light: { colors: { primary: string; background: string; card: string; text: string; textSecondary: string; border: string; notification: string; danger: string; success: string; warning: string; glassBorder: string; glassBackground: string; }; spacing: { ...; }; borderRadius: { ...; }; shadows: { ...; }; }; dark: ...'.
+  No index signature with a parameter of type 'string' was found on type '{ light: { colors: { primary: string; background: string; card: string; text: string; textSecondary: string; border: string; notification: string; danger: string; success: string; warning: string; glassBorder: string; glassBackground: string; }; spacing: { ...; }; borderRadius: { ...; }; shadows: { ...; }; }; dark: ...'.
+src/App.tsx(101,10): error TS2304: Cannot find name 'UserContext'.
+src/App.tsx(110,87): error TS2322: Type '{ children: Element; themeId: string; isDarkMode: boolean; customBackground: string | null; }' is not assignable to type 'IntrinsicAttributes & BackgroundGradientProps'.
+  Property 'customBackground' does not exist on type 'IntrinsicAttributes & BackgroundGradientProps'.
+src/App.tsx(131,34): error TS2304: Cannot find name 'TabBar'.
+src/App.tsx(137,11): error TS2304: Cannot find name 'UserContext'.
+src/components/BackgroundGradient.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/components/BackgroundGradient.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/components/BackgroundGradient.tsx(2,28): error TS2305: Module '"react-native"' has no exported member 'Dimensions'.
+src/components/GlassView.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/components/GlassView.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/components/GlassView.tsx(2,28): error TS2305: Module '"react-native"' has no exported member 'Platform'.
+src/components/GlassView.tsx(2,38): error TS2305: Module '"react-native"' has no exported member 'ViewProps'.
+src/components/GlassView.tsx(2,49): error TS2305: Module '"react-native"' has no exported member 'Pressable'.
+src/components/GlassView.tsx(2,60): error TS2305: Module '"react-native"' has no exported member 'Animated'.
+src/index.tsx(1,10): error TS2305: Module '"react-native"' has no exported member 'AppRegistry'.
+src/screens/CalendarScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/CalendarScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/CalendarScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/CalendarScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/CalendarScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'ScrollView'.
+src/screens/CalendarScreen.tsx(2,46): error TS2305: Module '"react-native"' has no exported member 'TouchableOpacity'.
+src/screens/CalendarScreen.tsx(2,64): error TS2305: Module '"react-native"' has no exported member 'Alert'.
+src/screens/CalendarScreen.tsx(2,64): error TS6133: 'Alert' is declared but its value is never read.
+src/screens/CalendarScreen.tsx(5,22): error TS6133: 'CalendarIcon' is declared but its value is never read.
+src/screens/ChatScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/ChatScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/ChatScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/ChatScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/ChatScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'ScrollView'.
+src/screens/ChatScreen.tsx(2,46): error TS2305: Module '"react-native"' has no exported member 'TextInput'.
+src/screens/ChatScreen.tsx(2,57): error TS2305: Module '"react-native"' has no exported member 'TouchableOpacity'.
+src/screens/ChatScreen.tsx(2,75): error TS2305: Module '"react-native"' has no exported member 'KeyboardAvoidingView'.
+src/screens/ChatScreen.tsx(2,97): error TS2305: Module '"react-native"' has no exported member 'Platform'.
+src/screens/ChatScreen.tsx(2,107): error TS2305: Module '"react-native"' has no exported member 'ActivityIndicator'.
+src/screens/ChatScreen.tsx(38,32): error TS2339: Property 'scrollToEnd' does not exist on type 'never'.
+src/screens/DiaryScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/DiaryScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/DiaryScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/DiaryScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/DiaryScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'ScrollView'.
+src/screens/DiaryScreen.tsx(2,46): error TS2305: Module '"react-native"' has no exported member 'TouchableOpacity'.
+src/screens/DiaryScreen.tsx(2,64): error TS2305: Module '"react-native"' has no exported member 'TextInput'.
+src/screens/DiaryScreen.tsx(2,75): error TS2305: Module '"react-native"' has no exported member 'KeyboardAvoidingView'.
+src/screens/DiaryScreen.tsx(2,97): error TS2305: Module '"react-native"' has no exported member 'Platform'.
+src/screens/DiaryScreen.tsx(5,30): error TS6133: 'Edit3' is declared but its value is never read.
+src/screens/FlashcardsScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/FlashcardsScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/FlashcardsScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/FlashcardsScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/FlashcardsScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'TouchableOpacity'.
+src/screens/FlashcardsScreen.tsx(2,52): error TS2305: Module '"react-native"' has no exported member 'Animated'.
+src/screens/FlashcardsScreen.tsx(2,62): error TS2305: Module '"react-native"' has no exported member 'Dimensions'.
+src/screens/FlashcardsScreen.tsx(2,74): error TS2305: Module '"react-native"' has no exported member 'Platform'.
+src/screens/FlashcardsScreen.tsx(2,84): error TS2305: Module '"react-native"' has no exported member 'Modal'.
+src/screens/FlashcardsScreen.tsx(2,91): error TS2305: Module '"react-native"' has no exported member 'TextInput'.
+src/screens/FlashcardsScreen.tsx(2,102): error TS2305: Module '"react-native"' has no exported member 'ScrollView'.
+src/screens/FlashcardsScreen.tsx(6,10): error TS6133: 'RotateCw' is declared but its value is never read.
+src/screens/FlashcardsScreen.tsx(6,47): error TS6133: 'Plus' is declared but its value is never read.
+src/screens/FlashcardsScreen.tsx(7,1): error TS6133: 'AIService' is declared but its value is never read.
+src/screens/FlashcardsScreen.tsx(13,25): error TS6133: 'setFlashcards' is declared but its value is never read.
+src/screens/LandingScreen.tsx(4,23): error TS2552: Cannot find name 'useContext'. Did you mean 'UserContext'?
+src/screens/LandingScreen.tsx(4,34): error TS2304: Cannot find name 'ThemeContext'.
+src/screens/LandingScreen.tsx(5,26): error TS2552: Cannot find name 'useContext'. Did you mean 'UserContext'?
+src/screens/LandingScreen.tsx(8,10): error TS2304: Cannot find name 'ScrollView'.
+src/screens/LandingScreen.tsx(9,14): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(10,17): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/screens/LandingScreen.tsx(10,18): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/screens/LandingScreen.tsx(13,17): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/screens/LandingScreen.tsx(13,18): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/screens/LandingScreen.tsx(14,15): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(16,14): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(17,17): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/screens/LandingScreen.tsx(17,18): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/screens/LandingScreen.tsx(18,18): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(19,22): error TS2304: Cannot find name 'QuickAction'.
+src/screens/LandingScreen.tsx(19,40): error TS2304: Cannot find name 'Zap'.
+src/screens/LandingScreen.tsx(20,22): error TS2304: Cannot find name 'QuickAction'.
+src/screens/LandingScreen.tsx(20,40): error TS2304: Cannot find name 'PenTool'.
+src/screens/LandingScreen.tsx(21,19): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(22,18): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(23,22): error TS2304: Cannot find name 'QuickAction'.
+src/screens/LandingScreen.tsx(23,40): error TS2304: Cannot find name 'MessageSquare'.
+src/screens/LandingScreen.tsx(24,22): error TS2304: Cannot find name 'QuickAction'.
+src/screens/LandingScreen.tsx(24,40): error TS2304: Cannot find name 'Book'.
+src/screens/LandingScreen.tsx(25,19): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(26,15): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(28,14): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(29,17): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/screens/LandingScreen.tsx(29,18): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/screens/LandingScreen.tsx(30,18): error TS2304: Cannot find name 'GlassView'.
+src/screens/LandingScreen.tsx(31,22): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(32,25): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/screens/LandingScreen.tsx(32,26): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/screens/LandingScreen.tsx(33,25): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/screens/LandingScreen.tsx(33,26): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/screens/LandingScreen.tsx(34,23): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(35,22): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(36,22): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(37,25): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/screens/LandingScreen.tsx(37,26): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/screens/LandingScreen.tsx(38,25): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/screens/LandingScreen.tsx(38,26): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/screens/LandingScreen.tsx(39,23): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(40,19): error TS2304: Cannot find name 'GlassView'.
+src/screens/LandingScreen.tsx(41,15): error TS2304: Cannot find name 'View'.
+src/screens/LandingScreen.tsx(42,11): error TS2304: Cannot find name 'ScrollView'.
+src/screens/LandingScreen.tsx(46,27): error TS2339: Property 'create' does not exist on type '{ new (): StyleSheet; prototype: StyleSheet; }'.
+src/screens/SettingsScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/SettingsScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/SettingsScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/SettingsScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/SettingsScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'TextInput'.
+src/screens/SettingsScreen.tsx(2,45): error TS2305: Module '"react-native"' has no exported member 'ScrollView'.
+src/screens/SettingsScreen.tsx(2,57): error TS2305: Module '"react-native"' has no exported member 'Alert'.
+src/screens/SettingsScreen.tsx(2,57): error TS6133: 'Alert' is declared but its value is never read.
+src/screens/SettingsScreen.tsx(4,1): error TS6133: 'UserContext' is declared but its value is never read.
+src/screens/SettingsScreen.tsx(66,32): error TS2304: Cannot find name 'userName'.
+src/screens/SettingsScreen.tsx(67,39): error TS2304: Cannot find name 'setUserName'.
+src/screens/SettingsScreen.tsx(80,32): error TS2304: Cannot find name 'backgroundImage'.
+src/screens/SettingsScreen.tsx(81,40): error TS7006: Parameter 'text' implicitly has an 'any' type.
+src/screens/SettingsScreen.tsx(81,49): error TS2304: Cannot find name 'setBackgroundImage'.
+src/screens/StatsScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/StatsScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/StatsScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/StatsScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/StatsScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'ScrollView'.
+src/screens/StatsScreen.tsx(6,20): error TS7031: Binding element 'label' implicitly has an 'any' type.
+src/screens/StatsScreen.tsx(6,27): error TS7031: Binding element 'value' implicitly has an 'any' type.
+src/screens/StatsScreen.tsx(6,34): error TS7031: Binding element 'isLast' implicitly has an 'any' type.
+src/screens/StatsScreen.tsx(6,42): error TS7031: Binding element 'theme' implicitly has an 'any' type.
+src/screens/StatsScreen.tsx(25,18): error TS2741: Property 'isLast' is missing in type '{ label: string; value: string; theme: { colors: { primary: string; background: string; card: string; text: string; textSecondary: string; border: string; notification: string; danger: string; success: string; warning: string; glassBorder: string; glassBackground: string; }; spacing: { ...; }; borderRadius: { ...; }...' but required in type '{ label: any; value: any; isLast: any; theme: any; }'.
+src/screens/StatsScreen.tsx(26,18): error TS2741: Property 'isLast' is missing in type '{ label: string; value: string; theme: { colors: { primary: string; background: string; card: string; text: string; textSecondary: string; border: string; notification: string; danger: string; success: string; warning: string; glassBorder: string; glassBackground: string; }; spacing: { ...; }; borderRadius: { ...; }...' but required in type '{ label: any; value: any; isLast: any; theme: any; }'.
+src/screens/StatsScreen.tsx(32,18): error TS2741: Property 'isLast' is missing in type '{ label: string; value: string; theme: { colors: { primary: string; background: string; card: string; text: string; textSecondary: string; border: string; notification: string; danger: string; success: string; warning: string; glassBorder: string; glassBackground: string; }; spacing: { ...; }; borderRadius: { ...; }...' but required in type '{ label: any; value: any; isLast: any; theme: any; }'.
+src/screens/StudyDumpScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/StudyDumpScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/StudyDumpScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/StudyDumpScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/StudyDumpScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'TouchableOpacity'.
+src/screens/StudyDumpScreen.tsx(2,52): error TS2305: Module '"react-native"' has no exported member 'ScrollView'.
+src/screens/StudyDumpScreen.tsx(2,64): error TS2305: Module '"react-native"' has no exported member 'Alert'.
+src/screens/StudyDumpScreen.tsx(2,64): error TS6133: 'Alert' is declared but its value is never read.
+src/screens/StudyDumpScreen.tsx(2,71): error TS2305: Module '"react-native"' has no exported member 'Modal'.
+src/screens/StudyDumpScreen.tsx(2,78): error TS2305: Module '"react-native"' has no exported member 'TextInput'.
+src/screens/StudyDumpScreen.tsx(6,66): error TS6133: 'File' is declared but its value is never read.
+src/screens/StudyDumpScreen.tsx(7,1): error TS6133: 'AIService' is declared but its value is never read.
+src/screens/SyllabusScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/SyllabusScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/SyllabusScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/SyllabusScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/SyllabusScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'ScrollView'.
+src/screens/SyllabusScreen.tsx(2,46): error TS2305: Module '"react-native"' has no exported member 'TouchableOpacity'.
+src/screens/SyllabusScreen.tsx(2,64): error TS2305: Module '"react-native"' has no exported member 'TextInput'.
+src/screens/SyllabusScreen.tsx(34,27): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/screens/SyllabusScreen.tsx(38,29): error TS7006: Parameter 'subjectId' implicitly has an 'any' type.
+src/screens/SyllabusScreen.tsx(38,40): error TS7006: Parameter 'chapterId' implicitly has an 'any' type.
+src/screens/SyllabusScreen.tsx(38,51): error TS7006: Parameter 'newProgress' implicitly has an 'any' type.
+src/screens/SyllabusScreen.tsx(50,28): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/screens/SyllabusScreen.tsx(67,25): error TS7006: Parameter 'subjectId' implicitly has an 'any' type.
+src/screens/SyllabusScreen.tsx(82,37): error TS7006: Parameter 'chapters' implicitly has an 'any' type.
+src/screens/SyllabusScreen.tsx(84,40): error TS7006: Parameter 'acc' implicitly has an 'any' type.
+src/screens/SyllabusScreen.tsx(84,45): error TS7006: Parameter 'curr' implicitly has an 'any' type.
+src/screens/TimerScreen.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/screens/TimerScreen.tsx(2,10): error TS2305: Module '"react-native"' has no exported member 'View'.
+src/screens/TimerScreen.tsx(2,16): error TS2305: Module '"react-native"' has no exported member 'Text'.
+src/screens/TimerScreen.tsx(2,22): error TS2305: Module '"react-native"' has no exported member 'StyleSheet'.
+src/screens/TimerScreen.tsx(2,34): error TS2305: Module '"react-native"' has no exported member 'TouchableOpacity'.
+src/screens/TimerScreen.tsx(2,52): error TS2305: Module '"react-native"' has no exported member 'Dimensions'.
+src/screens/TimerScreen.tsx(2,64): error TS2305: Module '"react-native"' has no exported member 'TextInput'.
+src/screens/TimerScreen.tsx(2,75): error TS2305: Module '"react-native"' has no exported member 'Modal'.
+src/screens/TimerScreen.tsx(5,34): error TS6133: 'Music' is declared but its value is never read.
+src/screens/TimerScreen.tsx(5,50): error TS6133: 'ImageIcon' is declared but its value is never read.
+src/screens/TimerScreen.tsx(51,13): error TS2322: Type 'Timeout' is not assignable to type 'null'.
+src/screens/TimerScreen.tsx(56,27): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'null' is not assignable to parameter of type 'number | undefined'.
+src/screens/TimerScreen.tsx(62,36): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'null' is not assignable to parameter of type 'number | undefined'.
+src/screens/TimerScreen.tsx(69,21): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ focus: { label: string; minutes: number; }; shortBreak: { label: string; minutes: number; }; longBreak: { label: string; minutes: number; }; }'.
+  No index signature with a parameter of type 'string' was found on type '{ focus: { label: string; minutes: number; }; shortBreak: { label: string; minutes: number; }; longBreak: { label: string; minutes: number; }; }'.
+src/screens/TimerScreen.tsx(72,25): error TS7006: Parameter 'newMode' implicitly has an 'any' type.
+src/screens/TimerScreen.tsx(75,21): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ focus: { label: string; minutes: number; }; shortBreak: { label: string; minutes: number; }; longBreak: { label: string; minutes: number; }; }'.
+src/screens/TimerScreen.tsx(78,25): error TS7006: Parameter 'seconds' implicitly has an 'any' type.
+src/screens/TimerScreen.tsx(143,30): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ focus: { label: string; minutes: number; }; shortBreak: { label: string; minutes: number; }; longBreak: { label: string; minutes: number; }; }'.
+  No index signature with a parameter of type 'string' was found on type '{ focus: { label: string; minutes: number; }; shortBreak: { label: string; minutes: number; }; longBreak: { label: string; minutes: number; }; }'.
